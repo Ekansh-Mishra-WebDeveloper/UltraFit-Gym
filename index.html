@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes" />
+  <meta name="theme-color" content="#121212" />
+  <title>UltraFit Gym | The Standard of Strength</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Archivo:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- PREMIUM NAVIGATION BAR with logo image -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="logo-wrapper">
+        <img src="UltraFit logo.png" alt="UltraFit Logo" class="nav-logo-img" width="38" height="38" />
+        <div class="logo">
+          <span class="logo-ultra">ULTRA</span><span class="logo-fit">FIT</span>
+        </div>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="nav-link join-now-nav" id="joinNowNavBtn">Join Now</a></li>
+        <li><a href="#" class="nav-link" id="contactUsNavBtn">Contact Us</a></li>
+        <li><a href="#" class="nav-link">Diet Plan</a></li>
+        <li><a href="#" class="nav-link">Workout Plan</a></li>
+        <li><a href="#" class="nav-link">Gym Members</a></li>
+        <li><a href="#" class="nav-link">Shop</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION with large circular logo -->
+    <section class="hero" id="hero">
+      <div class="hero-video-wrapper">
+        <!-- use playsinline for mobile autoplay -->
+        <video autoplay loop muted playsinline
+          poster="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <source src="https://videos.pexels.com/video-files/4349242/4349242-uhd_2560_1440_25fps.mp4"
+            type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content container">
+        <div class="hero-logo-wrapper">
+          <img src="UltraFit logo.png" alt="UltraFit Logo" class="hero-logo-img" width="120" height="120" />
+        </div>
+        <div class="hero-brand"><span class="ultra-white">ULTRA</span><span class="fit-gold">FIT</span></div>
+        <h1 class="hero-title">The Standard of Strength</h1>
+        <button class="btn-primary btn-vip" id="heroVipBtn">Claim Your 3-Day VIP Pass</button>
+        <div class="live-status" id="liveStatusWidget">
+          <span class="pulse-dot"></span>
+          <span id="statusText">Open Now – Closing at 10 PM</span>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES -->
+    <section class="services-section" id="services-ribbon">
+      <div class="container">
+        <div class="services-icons-row">
+          <div class="service-item"><i class="fas fa-heartbeat"></i><span>Cardio</span></div>
+          <div class="service-item"><i class="fas fa-dumbbell"></i><span>Muscle Training</span></div>
+          <div class="service-item"><i class="fas fa-chalkboard-user"></i><span>Personal Training</span></div>
+          <div class="service-item"><i class="fas fa-utensils"></i><span>Diet Planning</span></div>
+        </div>
+        <div class="safety-cluster">
+          <span><i class="fas fa-shield-virus"></i> Medical-Grade Sanitization</span>
+          <span><i class="fas fa-certificate"></i> Certified Trainers</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats-bar">
+      <div class="container stats-grid">
+        <div class="stat-card"><span class="stat-num" data-count="1500">0</span><span>+ Members</span></div>
+        <div class="stat-card"><span class="stat-num" data-count="20">0</span><span>+ Expert Trainers</span></div>
+        <div class="stat-card"><span class="stat-num" data-count="500">0</span><span>+ Transformations</span></div>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP TRAINERS -->
+    <section class="leadership">
+      <div class="container">
+        <h2 class="section-title">Gym Trainers</h2>
+        <div class="leadership-cards">
+          <div class="leader-card" data-leader="owner">
+            <img
+              src="https://images.pexels.com/photos/1552102/pexels-photo-1552102.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Owner" loading="lazy" width="280" height="280">
+            <h3>Marcus Vane</h3>
+            <p>Founder & CEO</p>
+            <button class="btn-outline-gold">View Profile</button>
+            <div class="trainer-socials">
+              <a href="https://wa.me/1234567890?text=Hello%20UltraFit%2C%20I'm%20interested%20in%20training%20with%20Marcus%20Vane"
+                target="_blank" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://instagram.com/ultrafitgym" target="_blank" class="social-icon instagram"><i
+                  class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="leader-card" data-leader="trainer1">
+            <img src="https://images.pexels.com/photos/841128/pexels-photo-841128.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Head Trainer">
+            <h3>Elena Cross</h3>
+            <p>Head of Performance</p>
+            <button class="btn-outline-gold">View Profile</button>
+            <div class="trainer-socials">
+              <a href="https://wa.me/1234567890?text=Hello%20UltraFit%2C%20I'm%20interested%20in%20training%20with%20Elena%20Cross"
+                target="_blank" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://instagram.com/ultrafitgym" target="_blank" class="social-icon instagram"><i
+                  class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="leader-card" data-leader="trainer2">
+            <img src="https://images.pexels.com/photos/260447/pexels-photo-260447.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="Nutrition Expert">
+            <h3>David Okafor</h3>
+            <p>Nutrition Director</p>
+            <button class="btn-outline-gold">View Profile</button>
+            <div class="trainer-socials">
+              <a href="https://wa.me/1234567890?text=Hello%20UltraFit%2C%20I'm%20interested%20in%20training%20with%20David%20Okafor"
+                target="_blank" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://instagram.com/ultrafitgym" target="_blank" class="social-icon instagram"><i
+                  class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="leader-card" data-leader="trainer3">
+            <img src="Trainer.jpg"
+              alt="Strength Coach">
+            <h3>Isabella Cruz</h3>
+            <p>Strength & Conditioning</p>
+            <button class="btn-outline-gold">View Profile</button>
+            <div class="trainer-socials">
+              <a href="https://wa.me/1234567890?text=Hello%20UltraFit%2C%20I'm%20interested%20in%20training%20with%20Isabella%20Cruz"
+                target="_blank" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://instagram.com/ultrafitgym" target="_blank" class="social-icon instagram"><i
+                  class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRANSFORMATIONS SECTION -->
+    <section class="transformations-preview" id="transformations-section">
+      <div class="container">
+        <h2 class="section-title">Transformations</h2>
+        <div class="transform-cards">
+          <div class="trans-card">
+            <div class="luxury-comparison-slider" data-before="After1.jpg" data-after="Before1.jpg">
+              <div class="comparison-images">
+                <img class="before-image" alt="Before transformation">
+                <div class="after-image-container">
+                  <img class="after-image" alt="After transformation">
+                </div>
+              </div>
+              <div class="slider-handle" style="left: 50%;">
+                <div class="vertical-line"></div>
+                <div class="handle-circle"><i class="fas fa-arrows-alt-h"></i></div>
+              </div>
+              <div class="comparison-label before-label">BEFORE</div>
+              <div class="comparison-label after-label">AFTER</div>
+              <div class="drag-percentage"></div>
+            </div>
+            <button class="btn-see-more">See more</button>
+          </div>
+          <div class="trans-card">
+            <div class="luxury-comparison-slider" data-before="After2.jpg" data-after="Before2.jpg">
+              <div class="comparison-images">
+                <img class="before-image" alt="Before transformation">
+                <div class="after-image-container">
+                  <img class="after-image" alt="After transformation">
+                </div>
+              </div>
+              <div class="slider-handle" style="left: 50%;">
+                <div class="vertical-line"></div>
+                <div class="handle-circle"><i class="fas fa-arrows-alt-h"></i></div>
+              </div>
+              <div class="comparison-label before-label">BEFORE</div>
+              <div class="comparison-label after-label">AFTER</div>
+              <div class="drag-percentage"></div>
+            </div>
+            <button class="btn-see-more">See more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GYM MEMBERS CAROUSEL -->
+    <section class="members-carousel-section" id="members-section">
+      <div class="container">
+        <h2 class="section-title gold-full">Gym Members</h2>
+        <div class="members-carousel-container">
+          <div class="members-carousel-main">
+            <div class="members-carousel-items" id="membersCarouselItems"></div>
+            <button class="carousel-arrow members-prev" id="membersPrevBtn" aria-label="Previous"><i
+                class="fas fa-chevron-left"></i></button>
+            <button class="carousel-arrow members-next" id="membersNextBtn" aria-label="Next"><i
+                class="fas fa-chevron-right"></i></button>
+          </div>
+          <div class="members-dots" id="membersDots"></div>
+          <div class="members-cta">
+            <button class="btn-outline-gold view-members-btn">View Members</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DIET PLANS (cards with consistent button alignment) -->
+    <section class="diet-plans-section">
+      <div class="container">
+        <h2 class="section-title">Diet Plans</h2>
+        <div class="diet-plans-grid">
+          <div class="diet-card">
+            <div class="diet-card-image"><img
+                src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Veg Diet"></div>
+            <div class="diet-card-content">
+              <h3>Veg</h3>
+              <p>Plant-based nutrition for sustained energy and lean muscle.</p>
+              <div class="diet-targets"><span><i class="fas fa-leaf"></i> Weight Loss</span><span><i
+                    class="fas fa-heartbeat"></i> Balanced Diet</span></div>
+              <button class="btn-outline-gold full-plan-btn">Full Diet Plan</button>
+            </div>
+          </div>
+          <div class="diet-card">
+            <div class="diet-card-image"><img
+                src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Egg Diet"></div>
+            <div class="diet-card-content">
+              <h3>Egg</h3>
+              <p>High-quality protein and healthy fats for muscle repair.</p>
+              <div class="diet-targets"><span><i class="fas fa-dumbbell"></i> Muscle Gain</span><span><i
+                    class="fas fa-bolt"></i> Performance Boost</span></div>
+              <button class="btn-outline-gold full-plan-btn">Full Diet Plan</button>
+            </div>
+          </div>
+          <div class="diet-card">
+            <div class="diet-card-image"><img
+                src="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Non-Veg Diet"></div>
+            <div class="diet-card-content">
+              <h3>Non-Veg</h3>
+              <p>Complete protein profiles for explosive strength development.</p>
+              <div class="diet-targets"><span><i class="fas fa-fire"></i> Mass Building</span><span><i
+                    class="fas fa-chart-line"></i> Strength Focus</span></div>
+              <button class="btn-outline-gold full-plan-btn">Full Diet Plan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKOUT PLAN (cards with consistent button alignment) -->
+    <section class="workout-plan-section" id="workout-plan">
+      <div class="container">
+        <h2 class="section-title">Workout Plan</h2>
+        <div class="workout-plans-grid">
+          <div class="workout-card">
+            <div class="workout-card-image"><img
+                src="https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Cardio"></div>
+            <div class="workout-card-content">
+              <h3>Cardio Training</h3>
+              <p>High-intensity interval training to boost metabolic rate.</p>
+              <div class="workout-targets"><span><i class="fas fa-fire"></i> Fat Burn</span><span><i
+                    class="fas fa-heart"></i> Endurance</span></div>
+              <button class="btn-outline-gold full-workout-btn">Full Workout Plan</button>
+            </div>
+          </div>
+          <div class="workout-card">
+            <div class="workout-card-image"><img
+                src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Muscle"></div>
+            <div class="workout-card-content">
+              <h3>Muscle Training</h3>
+              <p>Strength-focused protocols for lean mass gain and aesthetics.</p>
+              <div class="workout-targets"><span><i class="fas fa-dumbbell"></i> Strength</span><span><i
+                    class="fas fa-chart-line"></i> Hypertrophy</span></div>
+              <button class="btn-outline-gold full-workout-btn">Full Workout Plan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEMBERSHIP SECTION -->
+    <section class="membership-section" id="membership-section">
+      <div class="container">
+        <h2 class="section-title gold-full">Gym Membership</h2>
+        <div class="membership-cards">
+          <div class="membership-card">
+            <h3>Monthly Plan</h3>
+            <div class="price">₹2000<span>/month</span></div>
+            <p>Full access to equipment, group classes, and 24/7 support.</p>
+          </div>
+          <div class="membership-card">
+            <h3>Quarterly Plan</h3>
+            <div class="price">₹4500<span>/3 months</span></div>
+            <p>Save ₹1500! Includes free personal training session.</p>
+          </div>
+        </div>
+        <div class="membership-cta-wrapper">
+          <button class="btn-primary join-now-btn">Join Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOP -->
+    <section class="proshop-preview" id="proshop-preview">
+      <div class="container">
+        <h2 class="section-title"><span class="ultra-white">ULTRA</span><span class="fit-gold">FIT</span> Shop</h2>
+        <div class="product-grid">
+          <div class="product-card"><img src="UltraFit Protien.png" alt="Whey">
+            <h3>Whey Protein</h3>
+            <p class="price">₹999</p><button class="btn-gold-whatsapp" data-product="Whey Protein">Buy Now</button>
+          </div>
+          <div class="product-card"><img src="UltraFit Creatine.png" alt="Creatine">
+            <h3>Creatine</h3>
+            <p class="price">₹399</p><button class="btn-gold-whatsapp" data-product="Creatine">Buy Now</button>
+          </div>
+          <div class="product-card"><img src="UltraFit Shaker.png" alt="Shaker">
+            <h3>Shaker</h3>
+            <p class="price">₹199</p><button class="btn-gold-whatsapp" data-product="Shaker">Buy Now</button>
+          </div>
+        </div>
+        <div class="shop-cta-wrapper">
+          <button class="btn-outline-gold visit-shop-btn">Visit Shop</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY CAROUSEL -->
+    <section class="premium-carousel-section" id="galleryPremiumSection">
+      <div class="container">
+        <h2 class="section-title"><span class="ultra-white">Ultra</span><span class="fit-gold">Fit</span> Gallery</h2>
+        <div class="gallery-carousel-wrapper" id="galleryCarousel">
+          <div class="carousel-main">
+            <div class="carousel-items" id="galleryItemsContainer"></div><button class="carousel-arrow prev"
+              id="galleryPrevBtn"><i class="fas fa-chevron-left"></i></button><button class="carousel-arrow next"
+              id="galleryNextBtn"><i class="fas fa-chevron-right"></i></button>
+          </div>
+          <div class="carousel-dots" id="galleryDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REELS CAROUSEL (updated with local video files) -->
+    <section class="premium-carousel-section" id="reelsPremiumSection" style="background:#000000;">
+      <div class="container">
+        <h2 class="section-title"><span class="ultra-white">Ultra</span><span class="fit-gold">Fit</span> Reels</h2>
+        <div class="reels-carousel-wrapper" id="reelsCarousel">
+          <div class="carousel-main">
+            <div class="carousel-items" id="reelsItemsContainer"></div><button class="carousel-arrow prev"
+              id="reelsPrevBtn"><i class="fas fa-chevron-left"></i></button><button class="carousel-arrow next"
+              id="reelsNextBtn"><i class="fas fa-chevron-right"></i></button>
+          </div>
+          <div class="carousel-dots" id="reelsDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews-luxury-section">
+      <div class="container">
+        <h2 class="section-title gold-full">Reviews</h2>
+        <div class="review-carousel-container">
+          <div class="review-carousel-main">
+            <div class="review-carousel-items" id="reviewCarouselItems"></div><button class="carousel-arrow review-prev"
+              id="reviewPrevBtn"><i class="fas fa-chevron-left"></i></button><button class="carousel-arrow review-next"
+              id="reviewNextBtn"><i class="fas fa-chevron-right"></i></button>
+          </div>
+          <div class="review-dots" id="reviewDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT + MAP -->
+    <section class="contact-visit-section" id="contact-section">
+      <div class="container">
+        <div class="contact-visit-grid">
+          <div class="contact-card">
+            <h3 class="contact-card-title">Contact Us</h3>
+            <div class="contact-info-item"><i class="fas fa-phone-alt"></i>
+              <div>
+                <p class="contact-label">Phone</p>
+                <p class="contact-value">+1 (212) 555-7890</p><a href="tel:+12125557890" class="contact-button">Call
+                  Now</a>
+              </div>
+            </div>
+            <div class="contact-info-item"><i class="fab fa-whatsapp"></i>
+              <div>
+                <p class="contact-label">WhatsApp</p>
+                <p class="contact-value">+1 (212) 555-7891</p><a
+                  href="https://wa.me/12125557891?text=Hello%20UltraFit%2C%20I'm%20interested" target="_blank"
+                  class="contact-button">Chat Now</a>
+              </div>
+            </div>
+            <div class="contact-social"><a href="https://facebook.com/ultrafitgym" target="_blank"
+                class="social-link"><i class="fab fa-facebook-f"></i> Facebook <span>Open Now</span></a><a
+                href="https://instagram.com/ultrafitgym" target="_blank" class="social-link"><i
+                  class="fab fa-instagram"></i> Instagram <span>Open Now</span></a></div>
+            <div class="contact-address"><i class="fas fa-map-marker-alt"></i>
+              <p>123 Strength Avenue, Manhattan, NY 10001, USA</p>
+            </div>
+          </div>
+          <div class="visit-map">
+            <h3 class="visit-map-title">Visit Us</h3>
+            <div class="map-wrapper">
+              <iframe src="https://maps.google.com/maps?q=The+Ultra+Fit+Gym+Unnao&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                style="filter: grayscale(100%) invert(100%) contrast(90%);" loading="lazy"
+                title="UltraFit Gym Location"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-grid">
+        <div class="footer-links">
+          <h4>UltraFit Gym</h4>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+          </ul>
+          <p class="credit">Designed by Brand Bazaar</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <div id="modalOverlay" class="modal-overlay">
+    <div class="modal-content"><span class="close-modal">&times;</span>
+      <div id="modalDynamicBody"></div>
+    </div>
+  </div>
+
+  <div class="floating-cta" id="floatingCta">
+    <button class="floating-trial-btn" id="floatingTrialBtn">Book 3-Day Free Trial</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
